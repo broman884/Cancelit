@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CancelIt</string>
+    <string name="accessibility_description">CancelIt reads which app is open, on-screen text and text you type in other apps (never password fields) to close and lock apps when your limits run out or you type a blocked word, keep Study mode on topic, and, if you turn on Browser safety, pause browsers showing explicit-content words. When AI only suspects a match, it asks before closing anything. If you are 18+ and turn on Smart keyword detection or Study mode, short text snippets are sent through Google\'s Firebase to Google\'s Gemini API for a topic check. CancelIt doesn\'t store, sell or use them for ads; Google may use them to improve its products.</string>
+    <string name="go_home">GO HOME</string>
+
+</resources>

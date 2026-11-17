@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    CancelIt mark: a ring with a deliberate gap (reads as a stylized "C" and as a
+    focus/target ring), plus a solid center dot. Pure white on transparent so it can
+    sit on any of the app's black surfaces, and works as the Android 12+ splash icon
+    and as the adaptive-icon foreground.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Ring: circle of radius 26 centered at (54,54), stroked, with a ~70° gap at the
+         bottom-right (drawn as an arc path so the gap is baked into the vector). -->
+    <path
+        android:pathData="M 74.39,71.39
+                           A 26,26 0 1 1 71.39,33.61"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Center dot -->
+    <path
+        android:pathData="M 54,48 m -6,0 a 6,6 0 1 1 12,0 a 6,6 0 1 1 -12,0"
+        android:fillColor="#FFFFFF" />
+</vector>

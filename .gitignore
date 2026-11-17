@@ -1,0 +1,19 @@
+# Build output
+build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+app/release/
+app/debug/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Secrets and machine-specific paths: copy local.properties.example to local.properties
+local.properties
+app/google-services.json
+*.jks
+*.keystore

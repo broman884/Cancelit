@@ -1,0 +1,21 @@
+# Copy this file to local.properties and fill it in. local.properties is ignored by git and
+# must never be shared: it holds secrets and paths specific to your computer.
+
+# Android SDK location (Android Studio writes this for you).
+sdk.dir=C\:\\Users\\YOU\\AppData\\Local\\Android\\Sdk
+
+# AI features need no setting here: they go through Firebase AI Logic, set up by putting
+# app/google-services.json in place (see FIREBASE_SETUP.md). Never put a Gemini key here.
+
+# Where reported Coach replies are emailed if Firestore can't take them.
+SUPPORT_EMAIL=you@example.com
+
+# Public pages for the hosted privacy policy and terms (drafts in legal/).
+PRIVACY_POLICY_URL=https://example.com/cancelit/privacy
+TERMS_URL=https://example.com/cancelit/terms
+
+# Release signing.
+RELEASE_STORE_FILE=/absolute/path/to/your/keystore.jks
+RELEASE_STORE_PASSWORD=
+RELEASE_KEY_ALIAS=
+RELEASE_KEY_PASSWORD=

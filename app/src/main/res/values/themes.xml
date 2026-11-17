@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- The app theme. On Android 12+ the system splash uses this black windowBackground and
+         the adaptive launcher icon (ic_cancelit_mark on black); the animated splash in
+         SplashScreen.kt takes over as soon as Compose draws. Uses the platform Material theme
+         so no extra library is needed. -->
+    <style name="Theme.CancelIt" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+
+</resources>
